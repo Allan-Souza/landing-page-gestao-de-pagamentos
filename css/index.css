@@ -8,9 +8,8 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
-    align-items: center;
     background-color: #fff;
 }
 
@@ -61,13 +60,14 @@ nav ul li a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 50px;
     align-items: center;
 }
 
 .hero-content {
     max-width: 500px;
+    margin-right: -310px;
 }
 
 .hero-content h1 {
